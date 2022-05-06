@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-wrapper {
+  width: 100%;
+  margin: 4vh 10vw;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 200;
+    font-family: 'Raleway';
+    font-style: italic;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 10vw;
+
+  img {
+    position: absolute;
+    left: 16%;
+    width: 45vw;
+  }
+
+  .innerWrapper {
+    margin-top: 5vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container img {
+    left: 2%;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .container img {
+    display: none;
+  }
+}

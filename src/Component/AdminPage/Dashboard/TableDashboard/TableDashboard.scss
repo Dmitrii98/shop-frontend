@@ -1,0 +1,36 @@
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  .table-cell-head {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.2);
+
+    .sort-arrows-btn.MuiButton-root {
+      padding: 0;
+
+      &:hover {
+        background: none;
+      }
+
+      .sort-arrows {
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+
+  .table-cell-body {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .table-cell-row:nth-of-type(even) {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .table-cell-row:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}

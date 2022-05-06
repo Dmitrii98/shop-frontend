@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header-dashboard {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FDFAAF;
+  box-shadow: none;
+
+  .search-sort {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+
+    .search-field {
+      display: flex;
+      flex-direction: column;
+
+      .search-hint {
+        position: absolute;
+        display: flex;
+        width: 30vw;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 4.5vh 0 0 5vw;
+        background: rgba(254, 254, 254, 0.8);
+        border-radius: 5px;
+        z-index: 2;
+      }
+    }
+
+    .search-input {
+      min-height: 40px;
+      margin-left: 5vw;
+      background-color: #fff;
+      width: 30vw;
+      height: 4vh;
+
+      .MuiOutlinedInput-root {
+        min-height: 40px;
+        width: 100%;
+        height: 4vh;
+      }
+
+      .searchIcon {
+        color: rgba(0, 0, 0, 0.2);
+      }
+
+      fieldset {
+        border-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .sorting-by {
+      align-items: center;
+      display: flex;
+
+      .sorting-text {
+        display: flex;
+        justify-content: flex-end;
+        width: 10vw;
+        margin: 0 2vw;
+        font-family: 'Raleway';
+        font-size: 24px;
+        font-weight: 300;
+        color: #000;
+      }
+
+      .input-sort {
+        width: 15vw;
+
+        .MuiOutlinedInput-root {
+          background: #fff;
+          height: 5vh;
+        }
+      }
+    }
+  }
+}
+
+.dashboard-wrapper {
+  margin: 4vh 0;
+  padding: 2vw;
+  background-color: #fff;
+  border-radius: 40px;
+
+  .dashboard {
+    .MuiPaper-elevation1 {
+      box-shadow: none;
+    }
+  }
+
+  .page-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3vh 0 0;
+
+    .page-navigation-text {
+      display: flex;
+      align-items: center;
+      margin-right: 3vw;
+      font-family: 'Raleway';
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .page-navigation-input {
+      display: flex;
+      align-items: center;
+      width: 3vw;
+      margin-right: 2vw;
+    }
+
+    .pagination {
+      display: flex;
+      align-items: center;
+    }
+
+    .MuiPaginationItem-page.Mui-selected {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}
+
+
+
+
+

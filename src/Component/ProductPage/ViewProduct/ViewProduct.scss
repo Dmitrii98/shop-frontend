@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-view-product {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FDFAAF;
+  box-shadow: none;
+
+  .left-side {
+    margin-right: 5vw;
+
+    .back-to-home-page-img {
+      margin-top: 5vh;
+    }
+
+    img.back-button {
+      display: flex;
+      margin: 5vh 0 0;
+    }
+
+    .product-picture {
+      margin-top: 12vh;
+    }
+  }
+
+  .right-side {
+    width: 100%;
+    margin-top: 10vh;
+
+    .name-product {
+      display: flex;
+      justify-content: space-between;
+
+      .header-name-product {
+        font-size: 48px;
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 700;
+        color: #000;
+      }
+
+      .favorite-product-btn {
+        background: none;
+        border: none;
+        outline: none;
+
+        .favorite-product {
+          width: 2.5vw;
+          height: 5.5vh;
+        }
+
+        .filled-favorite-product {
+          width: 2.5vw;
+          height: 5.5vh;
+        }
+      }
+    }
+
+    .product-content {
+      margin-top: 5vh;
+
+      .product-description-text {
+        font-size: 24px;
+        font-family: 'Raleway';
+        font-weight: 300;
+        color: #000;
+      }
+    }
+
+    .available-quantity {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10vh;
+
+      .to-count-quantity {
+        display: flex;
+
+        .reduce-count-product-btn {
+          background: none;
+          border: none;
+          display: flex;
+          align-items: center;
+          outline: none;
+        }
+
+        .count-quantity {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 1vw;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-sizing: border-box;
+          background: #FFFFFF;
+          border-radius: 50%;
+          font-family: 'Raleway';
+          font-weight: 700;
+          font-style: italic;
+          font-size: 24px;
+          width: 40px;
+          height: 40px;
+        }
+
+        .increase-count-product-btn {
+          background: none;
+          border: none;
+          display: flex;
+          align-items: center;
+          outline: none;
+        }
+      }
+    }
+
+    .total {
+      display: flex;
+
+      .text-total-count {
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-style: italic;
+        font-size: 24px;
+        margin: 0 1vw;
+      }
+
+      .total-count {
+        display: flex;
+        align-items: center;
+        color: #999A1C;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-style: italic;
+        font-size: 24px;
+      }
+    }
+
+    .total-price {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 5vh;
+
+      .text-total-price {
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-style: italic;
+        font-size: 24px;
+        margin-right: 1vw;
+      }
+
+      .total-count-price {
+        display: flex;
+        align-items: center;
+        color: #999A1C;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-style: italic;
+        font-size: 36px;
+      }
+    }
+
+    .block-btn-view-profile {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8vh;
+
+      .back-btn {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-right: 2vw;
+        color: #999A1C;
+
+        &:hover {
+          background: #FFFFFF;
+        }
+
+        &.MuiButton-outlined {
+          font-family: 'Raleway';
+          font-style: italic;
+          font-size: 24px;
+          font-weight: 700;
+          padding: 0 4vw;
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .view-product-page-button {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: #999A1C;
+
+        &:hover {
+          background: #FFFFFF;
+        }
+
+        &.MuiButton-outlined {
+          font-family: 'Raleway';
+          font-style: italic;
+          font-size: 24px;
+          font-weight: 700;
+          padding: 0 4vw;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+

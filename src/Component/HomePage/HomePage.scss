@@ -1,0 +1,107 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 185px;
+  padding: 16px;
+  background: #ffffff;
+  margin-top: 40px;
+  margin-right: 25px;
+
+  .block-price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .prod-price {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #999a1c;
+  }
+
+  .heartImg {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  .prod-name {
+    margin-top: 14px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .basketImg {
+    cursor: pointer;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 32px;
+
+  span {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 40px;
+  }
+
+  .selectForm {
+    margin-right: 50px;
+    background: white;
+  }
+
+  div.MuiOutlinedInput-root {
+    height: 40px;
+    padding: 0;
+  }
+
+  select.MuiSelect-select:focus {
+    background-color: rgba(#000000, 0);
+  }
+
+  button.MuiPaginationItem-page.Mui-selected {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 18px;
+  }
+}
+
+p.MuiTypography-root {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  padding: 3px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+div.MuiPaper-elevation8 {
+  box-shadow: none;
+}

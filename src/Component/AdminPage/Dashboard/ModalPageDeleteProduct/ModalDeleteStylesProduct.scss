@@ -1,0 +1,45 @@
+.dialog {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+#form-dialog-title .MuiTypography-h6 {
+  font-family: 'Raleway';
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.btns {
+  margin: 2vh 1vw;
+
+  .delete-btn.MuiButton-root {
+    color: #999A1C;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 0vh 3vw;
+  }
+
+  .cancel-btn.MuiButton-root {
+    color: #999A1C;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 0vh 3vw;
+  }
+}
+
+p.text {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}

@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.main-edit-product {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FDFAAF;
+  box-shadow: none;
+
+  .left-side {
+    margin-right: 5vw;
+
+    .back-to-admin-page-img {
+      margin-top: 5vh;
+    }
+
+    img.back-button {
+      display: flex;
+      margin: 5vh 0 0;
+    }
+
+    .product-edit-picture {
+      margin-top: 1vh;
+      width: 25vw;
+    }
+
+    .upload-new-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 2vh;
+
+      .upload-btn {
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway';
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+
+    .edit-product-field {
+      margin-top: 1vh;
+
+      .edit-product-text {
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 1vh;
+      }
+
+      .input-edit {
+        width: 100%;
+
+        .MuiOutlinedInput-root {
+          height: 5vh;
+          background-color: #fff;
+          padding: 0.5vw;
+        }
+      }
+
+      .visible-btn {
+        padding: 0vh 2vw;
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-style: italic;
+        font-size: 24px;
+        text-transform: capitalize;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      .off {
+        background-color: #fff;
+        color: #000;
+      }
+
+      .on {
+        background-color: #999A1C;
+        color: #fff;
+      }
+    }
+  }
+
+  .right-side {
+    width: 100%;
+    margin-top: 10vh;
+
+    .name-product {
+      display: flex;
+      justify-content: space-between;
+
+      .header-name-product {
+        font-size: 48px;
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 700;
+        color: #000;
+      }
+    }
+
+    .delete-product-btn {
+      padding: 0;
+    }
+
+    .edit-product-field {
+      margin-top: 1vh;
+
+      .edit-product-text {
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 1vh;
+      }
+
+      .input-edit {
+        width: 100%;
+
+        .MuiOutlinedInput-root {
+          height: 5vh;
+          background-color: #fff;
+          padding: 0.5vw;
+          font-family: 'Raleway';
+          font-weight: 300;
+          font-size: 18px;
+          color: #000;
+        }
+      }
+
+      .description {
+        box-sizing: border-box;
+        resize: none;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-size: 24px;
+        font-style: italic;
+        border-radius: 4px;
+        padding: 1vh 1vw;
+
+        &:hover {
+          border: 1px solid rgb(0, 0, 0);
+        }
+
+        &:focus {
+          outline: none;
+          border: 2px solid #1c5fa7;
+        }
+      }
+    }
+
+    .block-btns-edit-product {
+      text-align: right;
+      margin-top: 5vh;
+
+      .back-link {
+        text-decoration: none;
+
+        .back-btn {
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-sizing: border-box;
+          border-radius: 4px;
+          margin-right: 2vw;
+          color: #999A1C;
+
+          &:hover {
+            background: #999A1C;
+            color: #fff;
+          }
+
+          &.MuiButton-outlined {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-size: 24px;
+            font-weight: 700;
+            padding: 0 3vw;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      .save-btn-edit-product {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: #999A1C;
+
+        &:hover {
+          background: #999A1C;
+          color: #fff;
+        }
+
+        &.MuiButton-outlined {
+          font-family: 'Raleway';
+          font-style: normal;
+          font-size: 24px;
+          font-weight: 700;
+          padding: 0 3vw;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+
+
